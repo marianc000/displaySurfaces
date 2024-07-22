@@ -1,0 +1,7 @@
+<video autoplay id="video" style="width: 90%;"></video>
+<button id="button">Start</button>
+
+<script>
+    button.addEventListener('click', async () =>
+        video.srcObject = await navigator.mediaDevices.getDisplayMedia());
+</script>

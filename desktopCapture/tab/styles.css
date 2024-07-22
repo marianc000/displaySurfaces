@@ -1,0 +1,56 @@
+ 
+* {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.container {
+ align-content: center;
+ text-align: center;
+ padding-top: 2px;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+ 
+ 
+p {
+    margin-bottom: 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.content>* {
+    display: inline-block;
+    width: 49.5%;
+    vertical-align: top;
+    margin-right: 1px;
+    box-sizing: border-box;
+    /* margin-bottom: 5px; */
+    /* position: relative; */
+}
+
+.content>div  {
+  position: relative;
+  margin-bottom: 6px;
+}
+
+video {
+    width: 100%;
+    outline: 2px solid orangered;
+    vertical-align: middle;
+}
+
+.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: crimson;
+    font-weight: bold;
+}
